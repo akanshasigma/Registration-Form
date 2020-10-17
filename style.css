@@ -1,0 +1,29 @@
+.container {
+    margin-bottom: 50px;
+}
+
+.colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+
+}
+#formvalidation{
+    height: 30px;
+    margin-bottom: 20px;
+    color: red;
+    font-weight: bold
+
+}
+
+/* show password toggle*/
+#toggle {
+    display: none;}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+    #toggle {display: inline;}
+}
